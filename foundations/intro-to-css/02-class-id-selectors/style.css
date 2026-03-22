@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+
+.polaris {
+    background-color: rgb(252, 107, 107);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#pollux {
+    color: rgb(55, 55, 218);
+    font-size: 36px;
+}
+
+.aries {
+    font-size: 24px;
+}
+
+#castor {
+    background-color: rgb(122, 245, 122);
+    font-weight: bold;
+}
+
