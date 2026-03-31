@@ -12,6 +12,25 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px; /* To put 8px space between everything and the edge of the header*/
+  display: flex; /* To make everything horizontal */
+  align-items: center; /* Centers everything vertically */
+}
+
+/* Separated the left and right items using another container */
+.left-items, .right-items {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.left-items {
+  align-items: flex-start; /* Puts the left items on the starting point of the screen (left side) */
+}
+
+.right-items {
+  justify-content: flex-end; /* Puts the right items to the far end of the screen (right side) */
+  gap: 16px;
 }
 
 .profile-image {
@@ -45,4 +64,7 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding-left: 16px;
+  gap: 16px;
 }
